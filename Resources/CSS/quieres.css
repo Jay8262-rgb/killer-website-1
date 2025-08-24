@@ -1,0 +1,247 @@
+
+@media only screen and (max-width:1346px){
+    /* header protion */
+    .navigation-section p{
+        width: 30%;
+    }
+    
+    .main-nav li{
+        margin: 1.5rem;
+        margin-left: 0.1rem;
+        transition: ease-in-out;
+    }
+
+    .food-description-portion h3{
+        font-size: 0.6rem;
+    }
+
+    .box p{
+        font-size: 0.6rem;
+        font-weight: 100;
+    }
+
+    .row-inline{
+        padding-left: 6rem;
+    }
+
+    .row{
+        height: 12rem;
+    }
+
+    .icon{
+        width: 20%;
+        height: 30%;
+    }
+
+    /* city feature  */
+    .city-icon{
+        font-size: large;
+    }
+    
+}
+
+@media only screen and (max-width:1082px){
+    /* header  */
+    .main-nav{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main-nav li{
+        margin: 36px 20px 36px 2.4px;
+    }
+    .main-nav a{
+        font-size: 0.8rem;
+        width: auto;
+        transform: translateX(0.5rem ease-in-out)
+    }
+
+    
+    .logo{
+        width: 4rem;
+        height: 4rem;
+    }
+    .navigation-section p{
+        font-size: large;
+        width: 12rem;
+
+        
+    }
+
+    
+    /* food description  */
+    .food-description-portion{
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+        column-gap: 0rem;
+        place-items: center;
+        
+    }
+
+    .long-food-description{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: large;
+        margin: 0;
+    }
+    .row{
+        height: 14rem;
+        width: 80%;
+        text-align: center;
+        
+
+    }
+
+    .icon{
+        transform: translateX(2.9rem);
+    }
+
+    
+/* city feature  */
+    .city-feature h4{
+        font-size: large;
+    }
+
+    .city-feature-part-1{
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+        place-items: center;
+    }
+
+    /* footer section  */
+
+    .footer-nav{
+        font-size: 0.1rem;
+    }
+
+    .form-box{
+        width: 14rem;
+    }
+}
+
+@media only screen and (max-width:767px){
+    h1{
+        font-size: xx-large;
+    }
+    
+    .main-nav li{
+        display: none;
+        margin: 36px 15px 36px 2.4px;
+    }
+
+
+    /*food portion */
+
+    .food-description-portion{
+        
+        display: grid;
+        grid-template-columns: 10rem 10rem;
+        
+    }
+
+    .feature-section{
+        overflow: hidden;
+    }
+
+    .row{
+        width: 90%;
+    }
+
+   /*meal point*/
+
+   .meal-section{
+    height: 8rem;
+   }
+
+
+
+    /* city menu  */
+
+   
+    
+
+    .city-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .city-container img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 70%;
+    }
+
+    .city-feature-part-1{
+        
+        width: 100%;
+        grid-template-columns: 8rem 8rem;
+    }
+
+    /* form box  */
+    
+    
+   
+
+    
+
+    .form-feedback-section h3{
+        width: 100%;
+    }
+
+    .feedback-point h3{
+        width: 100%;
+    }
+
+    .feedback-point-second-one{
+        width: 80%;
+        
+    }
+
+    .form-box{
+        width: 35%;
+         font-size: 0.6rem;
+    }
+
+   
+
+    
+    /*footer*/
+
+    footer{
+        overflow: hidden;
+        height: 15rem;
+    }
+
+    .footer-inner-part{
+        width: 20%;
+    }
+
+    .row-inline{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
+
+
+
+@media only screen and (max-width:480px){
+    h1{
+        font-size: 1.2rem;
+    }
+   .food-description-portion{
+    grid-template-columns: 13rem;
+   }
+
+   .city-feature{
+    grid-template-columns: 15rem;
+   }
+}
