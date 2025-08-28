@@ -126,6 +126,10 @@
         font-size: xx-large;
     }
     
+    .main-nav{
+        width: 10%;
+    }
+
     .main-nav li{
         display: none;
         margin: 36px 15px 36px 2.4px;
@@ -174,8 +178,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 60%;
-        width: 70%;
+        height: 80%;
+        width: 100%;
     }
 
     .city-feature-part-1{
@@ -235,13 +239,78 @@
 
 @media only screen and (max-width:480px){
     h1{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
+    }
+
+    header{
+        font-size: 0.3rem;
+    }
+
+    .btn{
+        font-size: 100%;
+    }
+
+    .main-nav{
+        width: 10%;
+    }
+
+    body{
+        font-size: 0.5rem;
     }
    .food-description-portion{
     grid-template-columns: 13rem;
    }
 
+   .city-container{
+    width: 12rem;
+   }
+
+   .city-container img{
+    width: 10rem;
+   }
+
    .city-feature{
     grid-template-columns: 15rem;
+   }
+
+   .form-feedback-section{
+    font-size: large;
+   }
+
+   .feedback-point-inner-portion{
+    font-size: large;
+    width: 200px;
+   }
+
+   #find-us{
+    font-size: 0.6;
+    height: 2rem;
+   }
+
+   .form-box input{
+        width: 150px;
+   }
+   
+   .form-box{
+    width: 5rem;
+   }
+
+   .row-inline{
+    width: 2rem;
+    padding: 3.5rem;
+    
+   }
+
+   
+   
+
+   .form-box textarea{
+    font-size: 0.5rem;
+    height: 4rem;
+    
+   }
+
+   input{
+    width: 200px;
    }
 }
