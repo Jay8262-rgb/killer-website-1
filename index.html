@@ -12,13 +12,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
+      
     
     <script>
     $(document).ready(function(){
       // Add smooth scrolling to all links
+      AOS.init();
       $("a").on('click', function(event) {
 
         // Make sure this.hash has a value before overriding default behavior
@@ -45,7 +44,7 @@
 
   </head>
   <body>
-    <header>
+    <header >
       <nav>
         <div class="navigation-section">
           <img class="logo" src="Resources/CSS/Img/logo.png" alt="logo" />
@@ -104,7 +103,7 @@
       </div>
     </section>
 
-    <section class="meal-section" data-aos="fade-in" data-aos-duration="2000">
+    <section class="meal-section" data-aos="fade-up" data-aos-duration="4000">
       <h3 class="meal-section-h3">Meals</h3>
       <ul class="meal-showcase">
         <li>
@@ -154,7 +153,7 @@
     </section>
     
     <!-- City Section -->
-    <section class="city-section" data-aos="fade-in" data-aos-duration="2000">
+    <section class="city-section" data-aos="fade-up" data-aos-duration="4000">
         <div class="city-feature">
             <h3>We Are Currently In These Cities</h3>
         </div>
@@ -218,7 +217,7 @@
     </section>
 
     <!-- Customer Review Section -->
-    <section class="customer-review-section">
+    <section class="customer-review-section" data-aos="fade-up" data-aos-duration="4000">
         <h3>Customer Reviews</h3>
 
         <p>2000+ Customer provide review</p>
@@ -234,7 +233,7 @@
 
     <!-- Form feedback section -->
 
-    <section class="form-feedback-section">
+    <section class="form-feedback-section" data-aos="fade-up" data-aos-duration="4000">
     <div class="feedback-point">
         <h3>We're Happy To Hear From You</h3>
     </div>
